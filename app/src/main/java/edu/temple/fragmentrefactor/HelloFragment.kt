@@ -19,6 +19,7 @@ class HelloFragment : Fragment() {
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_hello, container, false).apply{
+
             val displayTextView = findViewById<TextView>(R.id.displayTextView)
             val nameEditText = findViewById<EditText>(R.id.nameEditText)
             val changeButton = findViewById<Button>(R.id.changeButton)
